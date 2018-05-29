@@ -55,5 +55,12 @@ Sarcasm Detection requires unique feature engineering techniques by considering 
 
 # Code Details
 
+To run the code follow these steps:
+
+1. Get the repository
+2. Run feature_extraction.py to generate a feature_list.csv with all the features
+3. Run necessary functions from utils.py
+4. Run Classifiers.py to get the results
+
 
 
