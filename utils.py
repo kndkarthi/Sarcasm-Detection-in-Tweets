@@ -1,6 +1,10 @@
+# Import Packages
+
 import os
 import csv
 
+
+# Delete Colums if not required
 
 def delete_column(csv_file_name, column_indices_to_remove=[]):
     with open(csv_file_name, "r", encoding='utf8') as file_in:
@@ -13,6 +17,7 @@ def delete_column(csv_file_name, column_indices_to_remove=[]):
     os.remove(csv_file_name)
     os.rename('temp.csv', csv_file_name)
 
+# Add index number to each tweet
 
 def add_index(csv_file_name):
     i = 0
@@ -27,7 +32,8 @@ def add_index(csv_file_name):
     os.remove(csv_file_name)
     os.rename('temp.csv', csv_file_name)
 
-
+# Removes empty lines from the csv file
+    
 def remove_newlines(file_name):
     with open(file_name, 'r', encoding='utf8') as file:
         with open('temp.csv', 'w', encoding='utf8') as file2:
