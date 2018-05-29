@@ -1,9 +1,9 @@
 # Introduction
 
-                 "Sarcasm is the lowest form of with, but the highest form of intelligence"
+                 "Sarcasm is the lowest form of wit, but the highest form of intelligence"
                                                 Oscar Wilde
 
-Sarcasm is a suble linguistic trait, where usually the author states the opposite of what they mean. Detecting Sarcasm requires common sense and contextual knowledge which makes it a difficult problem to address. With the prevalence of sarcasm in tweets and comments online, it has become important to devise algorithms and models to distinguish sarcastic statements from non-sarcastic ones. Here we present a comparative study of various classification algorithms in machine learning used to classify sarcastic & non-sarcastic tweets with some newly devised features like passive-aggressiveness and emoji sentiment flip for better accuracy.
+Sarcasm is a subtle linguistic trait, where usually the author states the opposite of what they mean. Detecting Sarcasm requires common sense and contextual knowledge which makes it a difficult problem to address. With the prevalence of sarcasm in tweets and comments online, it has become important to devise algorithms and models to distinguish sarcastic statements from non-sarcastic ones. Here we present a comparative study of various classification algorithms in machine learning used to classify sarcastic & non-sarcastic tweets with some newly devised features like passive-aggressiveness and emoji sentiment flip for better accuracy.
 
 Classification algorithms used:
 
@@ -36,9 +36,7 @@ In this project we use 21 special features along with usual unigrams and bigrams
 
 The table below shows the F1 scores of the classifiers when each feature is used individually
 
-
 ![image](https://user-images.githubusercontent.com/31497107/40632326-83d09e30-629a-11e8-965d-dcb8b774a382.png)
-
 
 Accuracy for different feature categories
 
