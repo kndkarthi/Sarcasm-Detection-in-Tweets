@@ -48,6 +48,6 @@ Incrementally adding feature categories
 ![image](https://user-images.githubusercontent.com/31497107/40632345-b851f06e-629a-11e8-9963-999ae3710c51.png)
 
 
-
+From the table below, we notice that the context based features performed worse than random or only a slightly better classifier. But emotion based features and contrast based features performed better than the rest. According to the accuracies and F1 Scores in Figures 1-2, emotion based features outperformed the other categories. We notice that in some case, having a single feature exceeded the performance of the category itself (e.g. Negative Word Count in Support Vector Machine). Also contrast-based features give consistent results for all the classifiers. We also notice that independently the features do not give very good accuracy but when we use them together they give good accuracy category-wise. Based on our results, we notice that since the emotion based features (six features) dominated the F1 score metric, we fixed these features as our base feature set and then started adding feature one category at a time. Contrary to what’s expected, we noticed that even when having the full set of features, there will be a given combination of different features (that doesn’t include the total 21 features) that will outperform the full set. This can be attributed to the fact that some of the tweets might not have all the features that we test for. 
 
 
