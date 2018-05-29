@@ -1,18 +1,18 @@
 # Introduction
 
-                             "Sarcasm is the lowest form of with, but the highest form of intelligence"
-                                                            Oscar Wilde
+                 "Sarcasm is the lowest form of with, but the highest form of intelligence"
+                                                Oscar Wilde
 
 Sarcasm is a suble linguistic trait, where usually the author states the opposite of what they mean. Detecting Sarcasm requires common sense and contextual knowledge which makes it a difficult problem to address. With the prevalence of sarcasm in tweets and comments online, it has become important to devise algorithms and models to distinguish sarcastic statements from non-sarcastic ones. Here we present a comparative study of various classification algorithms in machine learning used to classify sarcastic & non-sarcastic tweets with some newly devised features like passive-aggressiveness and emoji sentiment flip for better accuracy.
 
 Classification algorithms used:
 
-Naive Bayes
-Logistice Regression
-Support Vector Machines
-Random Forest
-Neural Networks
-Decision Trees
+1. Naive Bayes
+2. Logistic Regression
+3. Support Vector Machines
+4. Random Forest
+5. Neural Networks
+6. Decision Trees
 
 # Methodology
 
@@ -36,16 +36,16 @@ In this project we use 21 special features along with usual unigrams and bigrams
 The table below shows the F1 scores of the classifiers when each feature is used individually
 
 
-![image](https://user-images.githubusercontent.com/31497107/40632255-ae85de34-6299-11e8-8bd7-db2406274ae1.png)
+![image](https://user-images.githubusercontent.com/31497107/40632326-83d09e30-629a-11e8-965d-dcb8b774a382.png)
 
 
 Accuracy for different feature categories
 
-![image](https://user-images.githubusercontent.com/31497107/40632281-f9c224e8-6299-11e8-89a6-f138dc55b7fa.png)
+![image](https://user-images.githubusercontent.com/31497107/40632333-9f76f4e0-629a-11e8-833f-762049f0ace4.png)
 
 Incrementally adding feature categories
 
-![image](https://user-images.githubusercontent.com/31497107/40632292-0abf6d3c-629a-11e8-8966-d18d9240fab8.png)
+![image](https://user-images.githubusercontent.com/31497107/40632345-b851f06e-629a-11e8-9963-999ae3710c51.png)
 
 
 
